@@ -39,7 +39,6 @@ Ivette Aguilar Lopez
 <allow-intent href="https://*/*"/>
 <acces origin="https://*/*"/>
 <plugin name="cordova-plugin-whitelist" source="npm"/>
-<plugin name="cordova-plugin-whitelist" source="npm"/>
 	 
 	  <!-- Colocar icono app -->
 	  
