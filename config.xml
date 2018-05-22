@@ -1,29 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 
 <widget xmlns ="http://www.w3.org/ns/widgets"
   xmlns:gap="http://phonegap.com/ns/1.0"
   id ="com.phonegap.app7"
   version="1.0.0">
   
-  <name>app7 Deslizar hacia la Izquierda y a la Derecha </name>
+  <name> app7 Swipe</name>
   
   <description> 
-   Aplicacion que realiza el swipe o deslizamiento en el Dispositivo
+   Aplicación que muestra los datos del dispositivo
    </description>
    
    <author href="https://build.phonegap.com" email="iaguilarlopez400@gmail.com">
-Ivette Aguilar Lopez 
+   Ivette Aguilar Lopez 
    </author>
    
-   <!-- Personaliza la aplicaci�n y plataforma -->
+   <!-- Personaliza la aplicación y plataforma -->
    <preference name="orientation"   value="default" />
    <!-- <preference name="orientation"   value="portrait" />
    <preference name="orientation"   value="landscape" /> -->
    <preference name="target-device"   value="universal" />
    <preference name="fullscreen"    value="true" />
-   <preference name="android-installLocation"  value="auto" />
+   <preference name="android-installLocation"  value"auto" />
    <preference name="permissions" value="INTERNET" />
-
+   
    <!-- Plugins -->
    <!-- Core Plugina -->
    <plugin name="cordova-plugin-device" spec="~1.1.4" />
@@ -32,13 +32,6 @@ Ivette Aguilar Lopez
    
    <!-- <plugin name="cordova-plugin-geolocation" source="npm" /> -->
      <!-- Third part plugins -->
-
-<!-- Para accesar a paginas en Internet-->
-<allow-intent href="https://*/*"/>
-<acces origin="https://*/*"/>
-<allow-intent href="https://*/*"/>
-<acces origin="https://*/*"/>
-<plugin name="cordova-plugin-whitelist" source="npm"/>
 	 
 	  <!-- Colocar icono app -->
 	  
@@ -47,5 +40,3 @@ Ivette Aguilar Lopez
 </widget>
 	 
 	  
-	 
-
